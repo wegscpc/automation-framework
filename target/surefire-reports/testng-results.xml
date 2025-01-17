@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-17T01:06:18 CET" name="Automation Framework Test Suite" finished-at="2025-01-17T01:09:29 CET" duration-ms="190627">
+    <groups>
+    </groups>
+    <test started-at="2025-01-17T01:06:18 CET" name="Chrome Tests" finished-at="2025-01-17T01:09:12 CET" duration-ms="174108">
+      <class name="com.automation.TestExample">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automation.TestExample@1a75e76a]" started-at="2025-01-17T01:06:18 CET" name="setUp" finished-at="2025-01-17T01:06:33 CET" duration-ms="15186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogleSearch()[pri:0, instance:com.automation.TestExample@1a75e76a]" started-at="2025-01-17T01:06:33 CET" name="testGoogleSearch" finished-at="2025-01-17T01:09:09 CET" duration-ms="156074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestExample@1a75e76a]" started-at="2025-01-17T01:09:09 CET" name="tearDown" finished-at="2025-01-17T01:09:12 CET" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestExample -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2025-01-17T01:06:18 CET" name="Firefox Tests" finished-at="2025-01-17T01:09:29 CET" duration-ms="190627">
+      <class name="com.automation.TestExample">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automation.TestExample@43f02ef2]" started-at="2025-01-17T01:06:18 CET" name="setUp" finished-at="2025-01-17T01:06:33 CET" duration-ms="15417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogleSearch()[pri:0, instance:com.automation.TestExample@43f02ef2]" started-at="2025-01-17T01:06:33 CET" name="testGoogleSearch" finished-at="2025-01-17T01:09:22 CET" duration-ms="168592" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed unexpectedly: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [149f8a06-34a5-4477-bd3c-4723abca3a0d, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.1, moz:accessibilityChecks: false, moz:buildID: 20250113121357, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24468, moz:profile: C:\Users\Walter\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 149f8a06-34a5-4477-bd3c-4723abca3a0d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed unexpectedly: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [149f8a06-34a5-4477-bd3c-4723abca3a0d, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.1, moz:accessibilityChecks: false, moz:buildID: 20250113121357, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24468, moz:profile: C:\Users\Walter\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 149f8a06-34a5-4477-bd3c-4723abca3a0d
+at org.testng.Assert.fail(Assert.java:111)
+at com.automation.TestExample.testGoogleSearch(TestExample.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestExample@43f02ef2]" started-at="2025-01-17T01:09:22 CET" name="tearDown" finished-at="2025-01-17T01:09:29 CET" duration-ms="6570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestExample -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Automation Framework Test Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\elements\CustomElement.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\pages\GoogleSearchResultsPage.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\pages\BasePage.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\exceptions\AutomationException.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\exceptions\ErrorContext.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\pages\PageBuilder.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\pages\GoogleHomePage.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\exceptions\ErrorSeverity.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\utils\WebDriverCleanup.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\config\ConfigurationManager.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\factory\WebDriverFactory.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\exceptions\ElementInteractionException.java
+C:\Users\Walter\CascadeProjects\windsurf-project\automation-framework\src\main\java\com\automation\utils\ErrorTracker.java
